@@ -1,0 +1,40 @@
+.carousel  {
+    max-width: 1080px;
+    margin: 50px auto;
+    margin-left: -910px;
+    width:100%;
+}
+.carousel-items {
+    width: 10000px;
+    position: relative;
+}
+.carousel-block {
+    float: left;
+    z-index: 2;
+    padding: 10px 0px 10px 0px;
+}
+.carousel-block img{
+    display:block;
+}
+.prevButton {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    width: 84px;
+    height: 84px;
+    border-radius: 90px;
+    background: url(images/slideshowButtons.png) no-repeat 0px 0px;
+    background: url(images/slideshowButtons.png) no-repeat 1px 0px;
+    z-index: 1;
+}
+.nextButton {
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    width: 84px;
+    height: 84px;
+    border-radius: 90px;
+    background: url(images/slideshowButtons.png) no-repeat -82px 0px;
+    background: url(images/slideshowButtons.png) no-repeat -82px 0px;
+    z-index: 1;
+}
