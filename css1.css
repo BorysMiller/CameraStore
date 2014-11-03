@@ -1,25 +1,30 @@
 .carousel  {
-    max-width: 1080px;
+    /*max-width: 1080px;*/
     margin: 50px auto;
-    margin-left: -910px;
+    margin-left: -1145px;
     width:100%;
 }
 .carousel-items {
+    height:420px;
+    padding:0px;
+    background-color: black;
+    overflow: hidden;
     width: 10000px;
-    position: relative;
 }
 .carousel-block {
     float: left;
     z-index: 2;
-    padding: 10px 0px 10px 0px;
+    padding: 0;
 }
 .carousel-block img{
     display:block;
+    margin: 0;
 }
 .prevButton {
     position: absolute;
     top: 220px;
     left: 30px;
+    vertical-align: baseline;
     width: 84px;
     height: 84px;
     border-radius: 90px;
@@ -29,7 +34,7 @@
 }
 .nextButton {
     position: absolute;
-    top: 220px;
+    /*top: 220px;*/
     right: 30px;
     width: 84px;
     height: 84px;
@@ -38,3 +43,206 @@
     background: url(images/slideshowButtons.png) no-repeat -82px 0px;
     z-index: 1;
 }
+.wrapper
+{
+    height:30px;
+    border-top: 3px solid #98B827;
+}
+.top_menu{
+    margin: 0 auto;
+    width:1180px;
+}
+.left_top{
+    display:inline-block;
+    float:left;
+}
+.right_top{
+    display:inline-block;
+    float:right;
+}
+
+.left_top_el {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+span{
+    color:#98B827;
+}
+.container
+{
+    display: table;
+    width:1180px;
+    margin:0 auto;
+}
+.row {
+display: table-row;
+}
+.col1{
+    width:118px;
+    display: inline-block;}
+.col2{
+
+    display: inline-block;
+    width:236px;
+}
+.col3{
+    width:354px;
+    display: inline-block;
+border:1px solid black;
+}
+.col4{
+    width:472px;
+    display: inline-block;}
+.col5{
+    width:590px;
+    display: inline-block;}
+.col6{
+    width:708px;
+    display: inline-block;
+}
+.col7{
+    width:826px;
+    display: inline-block;}
+.col8{
+    width:944px;
+    display: inline-block;}
+.col9{
+    width:1062px;
+    display: inline-block;}
+.col10{
+    width:1180px;
+    display: inline-block;
+}
+
+
+
+
+.hr {
+    border-top: 1px solid #dadada;
+    width: 100%;
+}
+
+.container {
+    width: 1180px;
+    margin: auto;
+}
+
+.shop-item {
+    width: 22%;
+    margin: 1%;
+    font-size: 14px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    background-color: white;
+    color: #1f1f21;
+    display: inline-block;
+    position: relative;
+}
+
+.shop-item-img {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.sale-marker {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #98b827;
+    color: white;
+    text-shadow: 0px 1px 1px #1f1f21;
+    text-align:center;
+    vertical-align: middle;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    line-height: 45px;
+}
+
+.add-to-cart {
+    background-color: #828282;
+    color: white;
+    text-shadow: 1px 1px 1px #1f1f21;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    float:right;
+    border: 1px ridge #9a9a9a;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.7%;
+    font-size: 12px;
+}
+
+.price {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.price-button {
+    position: relative;
+    padding: 4%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.name-description {
+    padding: 4%;
+    padding-top: 3%;
+}
+
+.view-the-product {
+    display: block;
+    margin: 4%;
+    color: #98b827;
+    text-decoration: none;
+}
+
+.view-the-product::after{
+    content: " >";
+    color: #828282;
+}
+
+.view-the-product:hover {
+    text-decoration: underline;
+}
+
+.item-name {
+    margin: 1%;
+    font-weight: 200;
+}
+
+.item-description {
+    margin: 1%;
+    color: #7b7b7b;
+}
+
+.recent-products h2{
+    margin: 0.5%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.prev-next-buttons {
+    display: inline-block;
+}
+
+.nav-button {
+    background-color: #98b827;
+    width: 23px;
+    height: 23px;
+    padding: 2px;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    color: white;
+    text-shadow: 0px 1px 1px gray;
+    text-align: center;
+    vertical-align: central;
+}
+.nav-button:hover {
+    background-color: #80aa2f;
+}
+
+
