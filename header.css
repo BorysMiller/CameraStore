@@ -1,0 +1,140 @@
+
+.wrapper
+{
+    height:30px;
+    border-top: 3px solid #98B827;
+}
+.top_menu{
+    margin: 0 auto;
+    width:1180px;
+}
+.left_top{
+    display:inline-block;
+    float:left;
+}
+.right_top{
+    display:inline-block;
+    float:right;
+}
+
+.left_top_el {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+span{
+    color:#98B827;
+}
+.container
+{
+    background-color: #fafafa;
+    display: table;
+    width:1180px;
+    margin:0 auto;
+}
+.row {
+    display: table-row;
+}
+.col1{
+    width:118px;
+    display: inline-block;}
+.col2{
+
+    display: inline-block;
+    width:236px;
+}
+.col3{
+    width:354px;
+    display: inline-block;
+    border:1px solid black;
+}
+.col4{
+    width:472px;
+    display: inline-block;}
+.col5{
+    width:590px;
+    display: inline-block;}
+.col6{
+    width:708px;
+    display: inline-block;
+}
+.col7{
+    width:826px;
+    display: inline-block;}
+.col8{
+    width:944px;
+    display: inline-block;}
+.col9{
+    width:1062px;
+    display: inline-block;}
+.col10{
+    width:1180px;
+    display: inline-block;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left:10px;
+    float:left;
+}
+.menu{
+    display: inline-block;
+    float:left;
+    margin-top: 10px;
+}
+.ul_menu{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.li_menu{
+    height:30px;
+}
+a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration:none;
+    color:#98B827;
+}
+.search{
+
+    display: inline-block;
+    height:100%;
+    vertical-align: middle;
+    float:right;
+    margin-top: 30px;
+    margin-right: 5px;
+
+}
+.search_input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    color: #ccc;
+    height:30px;
+}
+.cart{
+    background:linear-gradient(to bottom, #98B827 0%,#89a71f 50%,#98B827 100%);
+    float:right;
+    height:50px;
+    margin-top: 15px ;
+    vertical-align: middle;
+    width:100px;
+    border-radius:2px;
+    display: inline;
+    text-align:center;
+}
+.border{
+    background:url("images/border.png") repeat-x;
+    width: 1180px;
+    position: relative;
+}
+.span_cart{
+    display:block;
+    margin-top:10px;
+    color:white;
+    font-size:20px;
+
+}
