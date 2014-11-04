@@ -161,12 +161,10 @@ a:hover{
 }
 .infotextBorder {
     width: 1180px;
-    float: left;
+    /*float: left;*/
     position: relative;
-
+    margin:0 auto;
     background: url(images/border.png) repeat-x;
-    position: absolute;
-
     height: 7px;
 
 }
