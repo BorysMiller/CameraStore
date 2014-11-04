@@ -374,3 +374,12 @@ padding: 5px;
 .what-people-say text{
     float: right;
 }
+.social{
+
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
