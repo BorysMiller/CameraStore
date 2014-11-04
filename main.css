@@ -107,6 +107,7 @@
 
 .prev-next-buttons {
     display: inline-block;
+    float:right;
 }
 
 .nav-button {
@@ -120,6 +121,7 @@
     text-shadow: 0px 1px 1px gray;
     text-align: center;
     vertical-align: central;
+
 }
 .nav-button:hover {
     background-color: #80aa2f;

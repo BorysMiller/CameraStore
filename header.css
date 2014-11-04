@@ -88,6 +88,8 @@ span{
 }
 .li_menu{
     height:30px;
+    font-family: MuseoSans;
+    color:  #9ab920;
 }
 a{
     color:black;
@@ -104,16 +106,20 @@ a:hover{
     height:100%;
     vertical-align: middle;
     float:right;
-    margin-top: 30px;
+    margin-top: 28px;
     margin-right: 5px;
 
 }
 .search_input{
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
-    border: 2px solid #ccc;
-    color: #ccc;
     height:30px;
+    border-width: 1px;
+    border-color:  #cfcfcf;
+    border-style: solid;
+    background-color:  #ffffff;
+    width: 250px;
+    height: 40px;
 }
 .cart{
     background:linear-gradient(to bottom, #98B827 0%,#89a71f 50%,#98B827 100%);
@@ -137,4 +143,31 @@ a:hover{
     color:white;
     font-size:20px;
 
+}
+.social{
+
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.social:hover{
+    border:2px solid lightblue;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+.infotextBorder {
+    width: 1180px;
+    /*float: left;*/
+    position: relative;
+    margin:0 auto;
+    background: url(images/border.png) repeat-x;
+    height: 7px;
+
+}
+.info_Border_Main{
+   width:900px;
 }
