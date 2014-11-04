@@ -149,6 +149,7 @@ a:hover{
     vertical-align: middle;
     float:right;
     margin-top: 30px;
+    margin-right: 5px;
 
 }
 .search_input{
@@ -400,4 +401,13 @@ padding: 5px;
 
 .what-people-say text{
     float: right;
+}
+.social{
+    background: #CFCFCF url(images/topSocialIcons.png) no-repeat -180px -40px;
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
 }
