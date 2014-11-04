@@ -1,0 +1,45 @@
+.carousel  {
+    /*max-width: 1080px;*/
+    margin: 50px auto;
+    margin-left: -1145px;
+    width:120%;
+}
+.carousel-items {
+    height:420px;
+    padding:0px;
+    background-color: black;
+    overflow: hidden;
+    width: 10000px;
+}
+.carousel-block {
+    float: left;
+    z-index: 2;
+    padding: 0;
+}
+.carousel-block img{
+    display:block;
+    margin: 0;
+}
+.prevButton {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    vertical-align: baseline;
+    width: 84px;
+    height: 84px;
+    border-radius: 90px;
+    background: url(images/slideshowButtons.png) no-repeat 0px 0px;
+    background: url(images/slideshowButtons.png) no-repeat 1px 0px;
+    z-index: 1;
+}
+.nextButton {
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    width: 84px;
+    height: 84px;
+    border-radius: 90px;
+    background: url(images/slideshowButtons.png) no-repeat -82px 0px;
+    background: url(images/slideshowButtons.png) no-repeat -82px 0px;
+    z-index: 1;
+}
