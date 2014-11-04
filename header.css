@@ -31,6 +31,10 @@ span{
     display: table;
     width:1180px;
     margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .row {
     display: table-row;
@@ -79,12 +83,12 @@ span{
 }
 .menu{
     display: inline-block;
-    float:left;
-    margin-top: 10px;
+    float: left;
+    margin-top: 0;
 }
 .ul_menu{
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 15px;
+    margin-bottom: 0
 }
 .li_menu{
     height:30px;
@@ -122,15 +126,20 @@ a:hover{
     height: 40px;
 }
 .cart{
-    background:linear-gradient(to bottom, #98B827 0%,#89a71f 50%,#98B827 100%);
-    float:right;
-    height:50px;
-    margin-top: 15px ;
+    background: linear-gradient(to bottom, #98B827 0%,#89a71f 50%,#98B827 100%);
+    float: right;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 3px;
     vertical-align: middle;
-    width:100px;
-    border-radius:2px;
+    width: 100px;
+    border-radius: 2px;
     display: inline;
-    text-align:center;
+    text-align: center;
+    text-shadow: 0px 1px 1px gray;
+}
+.cart :hover{
+    background-color: #80aa2f;
 }
 .border{
     background:url("images/border.png") repeat-x;
@@ -145,11 +154,10 @@ a:hover{
 
 }
 .social{
-
     height: 40px;
     width: 40px;
     float: right;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 5px;
     margin-right: 5px;
 }
@@ -169,5 +177,6 @@ a:hover{
 
 }
 .info_Border_Main{
-   width:900px;
+
+    display: inline-block;
 }

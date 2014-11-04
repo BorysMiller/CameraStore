@@ -108,6 +108,7 @@
 .prev-next-buttons {
     display: inline-block;
     float:right;
+    margin-top: -15px ;
 }
 
 .nav-button {
@@ -115,6 +116,7 @@
     width: 23px;
     height: 23px;
     padding: 2px;
+    margin:0;
     border: 1px solid #dadada;
     border-radius: 6px;
     color: white;
@@ -122,7 +124,18 @@
     text-align: center;
     vertical-align: central;
 
+
 }
 .nav-button:hover {
     background-color: #80aa2f;
+}
+.sect_header{
+    margin-bottom: -13px;
+    display: inline-block;
+}
+.sect_header_h{
+    margin:0;
+}
+.section-header{
+    display:table;
 }

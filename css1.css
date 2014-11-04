@@ -1,4 +1,9 @@
-
+body{
+    font-family: PT Sans Narrow !important
+    font-weight: normal;
+    line-height: 1.65em;
+    letter-spacing: normal
+}
 .check-our-brands ul{
     text-align: center;
     margin: 0;
