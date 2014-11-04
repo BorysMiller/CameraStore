@@ -177,6 +177,15 @@ a:hover{
 
 }
 .info_Border_Main{
-
+    width:880px;
+    margin-left:5px;
+    margin-right:5px;
+    display: inline-block;
+}
+.info_Border_Main1
+{
+    width:770px;
+    margin-left:5px;
+    margin-right:5px;
     display: inline-block;
 }

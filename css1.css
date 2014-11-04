@@ -21,11 +21,11 @@ body{
     width: 100%;
 }
 
-.check-our-brands h2{
-    margin: 0.5%;
-    display: inline-block;
-    text-transform: uppercase;
-}
+/*.check-our-brands h2{*/
+    /*margin: 0.5%;*/
+    /*display: inline-block;*/
+    /*text-transform: uppercase;*/
+/*}*/
 
 .recent-posts{
     width: 300px;
